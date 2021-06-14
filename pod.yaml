@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: flask
-        image: hshar/capstone:new
+        image: hshar/capstone:latest
         ports:
         - containerPort: 80
