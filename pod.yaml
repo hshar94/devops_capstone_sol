@@ -17,6 +17,6 @@ spec:
       containers:
       - name: flask
         image: hshar/capstone:latest
-        imagePullPolicy: always
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
